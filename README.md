@@ -1,2 +1,3 @@
-# GDCarousel.com
-Game Developer Carousel
+# Game Developer Carousel
+
+https://GDCarousel.com
