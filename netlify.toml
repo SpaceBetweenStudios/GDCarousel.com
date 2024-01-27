@@ -1,0 +1,13 @@
+[build.environment]
+
+[context.preview.branch-deploy]
+    command = "mv robots/robots-disallow.txt robots.txt"
+
+[context.preview]
+    command = "mv robots/robots-disallow.txt robots.txt"
+
+[context.production.branch-deploy]
+    command = "mv robots/robots-disallow.txt robots.txt"
+
+[context.production]
+    command = "mv robots/robots-allow.txt robots.txt"
