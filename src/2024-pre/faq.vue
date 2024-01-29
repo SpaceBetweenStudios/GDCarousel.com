@@ -68,7 +68,7 @@
                 Seg's Consulting in Immersive and Themed Entertainment for the Video Games Industry
               </div>
               <p class="mb-0">
-                Ok, a little self-promotion: Are you a major video game IP holder and plan to license to a theme park or other immersive experience? I can assist in making sure your IP makes a great impression. See me at the carousal or get in touch.
+                Ok, a little self-promotion: Are you a major video game IP holder and plan to license to a theme park or other immersive experience? I can assist in making sure your IP makes a great impression. See me at the carousel or get in touch.
               </p>
             </div>
           </li>
@@ -108,10 +108,10 @@
         adult chaperone.
       </p>
       <p>
-        Guests are able to transfer to a figure or chariot (fixed bench seats) from their mobility device using the carousal's assistance ramp. Guests can also stay on certain mobility devices without needing to transfer.
+        Guests are able to transfer to a figure or chariot (fixed bench seats) from their mobility device using the carousel's assistance ramp. Guests can also stay on certain mobility devices without needing to transfer.
       </p>
       <p>
-        Consult with the carousal operator of your needs before you ride.
+        Consult with the carousel operator of your needs before you ride.
       </p>
     </div>
 
@@ -129,7 +129,7 @@
         Other Important Notices:
       </h4>
       <p>
-        This project is not affiliated with any convention, conference, it's holding companies, etc. It's just some dude paying for free rides at a carousal and then made a website to tell people about it.
+        This project is not affiliated with any convention, conference, it's holding companies, etc. It's just some dude paying for free rides at a carousel and then made a website to tell people about it.
       </p>
     </div>
 
