@@ -4,8 +4,11 @@
       PREVIEW - DO NOT DISTRIBUTE THIS EXACT URL
     </div>
   </template>
-  <div class="container-fluid text-bg-secondary mb-5">
+  <div class="container-fluid mb-5 bg-photo-plaza-seg">
     <div class="px-4 py-5 mb-3 text-center">
+      <div class="display-1 mb-2">
+        🎮 🧑‍💻 🎠
+      </div>
       <h1>Game Developer Carousel</h1>
       <div class="h4">The LeRoy King Carousel at Yerba Buena Center</div>
       <div class="h3">Thursday, March 21, 2024</div>
@@ -20,13 +23,13 @@
 
   <div class="container-fluid">
     <div class="row row-cols-auto justify-content-center bg-photo-plaza-seg px-4 py-5">
-      <div class="col display-1 text-center rounded focus">
+      <div class="col display-1 text-center">
         🎮 🧑‍💻 🎠
       </div>
     </div>
-    <StructuredData />
   </div>
 
+  <StructuredData />
 </template>
 
 <script lang="ts">
@@ -43,7 +46,7 @@ export default defineComponent({
 
   computed: {
 
-    isPROD () {
+    isPROD() {
       return import.meta.env.PROD
     },
 
@@ -54,14 +57,9 @@ export default defineComponent({
 
 <style lang="scss">
 .bg-photo-plaza-seg {
-  background-image: url('/img/plaza-seg.jpg');
+  background-image: url('/img/plaza-seg-fade.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  .focus {
-    background-color: rgba(0, 0, 0, .6);
-    text-shadow: 0 0 1rem black;
-  }
 }
 </style>

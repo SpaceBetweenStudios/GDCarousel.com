@@ -1,26 +1,50 @@
 <template>
   <div class="row row-cols-1 g-3 mb-5">
     <div class="col">
-      <h3>
+      <h2>
         Questions:
-      </h3>
+      </h2>
     </div>
 
     <div class="col">
       <div class="row justify-content-between">
         <div class="col-12 col-sm-8">
-          <h4>
+          <h3>
             Who's doing this?
-          </h4>
+          </h3>
           <p>
-            <a href="https://seg.fyi/" target="_blank">John "Seg" Seggerson</a> is a former game developer and moved on to experience
-            design and immersive entertainment. On Thursday March 21st, he will personally sponsor every ride on the LeRoy
-            King Carousel.
+            I'm <a href="https://seg.fyi/" target="_blank">John "Seg" Seggerson</a>, a former game developer and now an
+            experience designer for immersive / themed entertainment. With a donation to the <a
+              href="https://creativity.org/" target="_blank">The Children's Creativity Museum</a>, I am sponsoring the
+            operation of the <a href="https://creativity.org/carousel/" target="_blank">LeRoy King Carousel</a> for the
+            day.
+          </p>
+          <p>
+            In my gaming career, I worked with 13 different franchises including Sam &amp; Max, Monkey Island, the
+            Walking Dead, and Graham Annable's Grickle. After moving away from the game industry, I started a career in
+            experience design and immersive theatre.
+          </p>
+          <p>
+            I've worked with The Rathskeller Club, an immersive theatre venue located in the Mission district of San
+            Francisco. Putting on numerous immersive theatre shows and experiences, I developed a process for safety and
+            consent in immersive productions.
+          </p>
+          <p>
+            In 2017 I co-produced a GDC party at the Rathskeller to introduce immersive productions to the video game
+            industry. If you were invited to an undisclosed place in the Mission district of San Francisco and went down a
+            wooden slide, then you know what I'm talking about. Since the slide is no more, this year's event is scaled
+            down but in a much more accessible and public venue.
+          </p>
+          <p>
+            I'll be there the whole day! Likely helping out with line management as I can't help but be a house manager
+            and work line operations. I'll certainly be free to chat about immersive experiences, themed entertainment,
+            and some free consulting.
           </p>
         </div>
         <div class="col text-center text-sm-end">
           <div>
-            <img src="@/assets/seg-headshot-00.jpg" class="rounded" :style="{ maxHeight: '450px' }" alt="John 'Seg' Seggerson with crossed arms looking at the camera." />
+            <img src="@/assets/seg-headshot-00.jpg" class="rounded" :style="{ maxHeight: '450px' }"
+              alt="John 'Seg' Seggerson with crossed arms looking at the camera." />
           </div>
         </div>
       </div>
@@ -28,9 +52,9 @@
 
     <div class="col">
       <div>
-        <h4>
-          Why is Seg doing this?
-        </h4>
+        <h3>
+          Why are you doing this, Seg?
+        </h3>
         <p>
           Three reasons, in order of importance:
         </p>
@@ -40,15 +64,14 @@
               <div class="fw-bold mb-2">
                 Whimsy
               </div>
-              <p class="mb-1">
-                To give folks a moment of pure, uncomplicated fun.
+              <p class="">
+                To give everyone a moment of pure, uncomplicated fun.
               </p>
-              <!-- <p class="mb-1">
-                As a member of <a href="https://semperexplorandum.com/" target="_blank">The Explorers Guild</a> Troupe
-                #001, Seg has a fond connection to the LeRoy Carousel with the annual Steeplechase exploration.
-              </p> -->
-              <p class="mb-0">
-                Having seen so many friends deal with the layoffs, along with his own personal experience of the game industry, Seg felt adding some whimsy to an otherwise abysmal time is desperately needed. While this will not solve the problems plaguing the video game industry, taking some time to remember joy and happiness will hopefully remind folks that radical kindness can be a path forward.
+              <p class="mb-1">
+                Having seen many friends deal with the layoffs recently and my own personal experience of the game
+                industry, adding some whimsy to an otherwise abysmal time is desperately needed. This will not solve the
+                problems plaguing the video game industry. But taking some time to remember joy and happiness will
+                remind you that radical kindness can be a path forward and is in fact strategic and necessary.
               </p>
             </div>
           </li>
@@ -57,18 +80,24 @@
               <div class="fw-bold mb-2">
                 Visibility for the LeRoy King Carousel
               </div>
-              <p class="mb-0">
-                Depending on the response from this year's whimsy, perhaps we can make this a new tradition? Get in touch if you wish to help sponsor next year.
+              <p class="mb-1">
+                Depending on the response this year, perhaps we can make this a new tradition? Get in touch if you wish to
+                help sponsor next year.
               </p>
             </div>
           </li>
           <li class="list-group-item d-flex justify-content-start align-items-start">
             <div class="ms-2">
               <div class="fw-bold mb-2">
-                Seg's Consulting in Immersive and Themed Entertainment for the Video Games Industry
+                Consulting in Immersive and Themed Entertainment for the Video Games Industry
               </div>
-              <p class="mb-0">
-                Ok, a little self-promotion: Are you a major video game IP holder and plan to license to a theme park or other immersive experience? I can assist in making sure your IP makes a great impression. See me at the carousel or get in touch.
+              <p>
+                Ok, a little self-promotion, as a treat:
+              </p>
+              <p class="mb-1">
+                Are you a major video game IP holder and plan to license to a theme park or
+                other immersive experience? I can assist in making sure your IP makes a great impression. See me at the
+                carousel or get in touch.
               </p>
             </div>
           </li>
@@ -77,15 +106,14 @@
     </div>
 
     <div class="col">
-      <h4>
+      <h3>
         Who operates the carousel?
-      </h4>
+      </h3>
       <div class="row justify-content-between">
         <div class="col">
           <p>
-            <a href="https://creativity.org/" target="_blank">The Children's Creativity Museum</a> owns and operates the
-            <a href="https://creativity.org/carousel/" target="_blank">LeRoy King Carousel</a>. The museum operates the
-            carousel at it's own discretion.
+            <a href="https://creativity.org/" target="_blank">The Children's Creativity Museum</a> operates the <a
+              href="https://creativity.org/carousel/" target="_blank">LeRoy King Carousel</a>.
           </p>
         </div>
         <div class="col-auto">
@@ -97,9 +125,9 @@
     </div>
 
     <div class="col">
-      <h4>
+      <h3>
         How accessible is the carousel?
-      </h4>
+      </h3>
       <p class="lead">
         Everyone deserves to ride with dignity.
       </p>
@@ -108,7 +136,9 @@
         adult chaperone.
       </p>
       <p>
-        Guests are able to transfer to a figure or chariot (fixed bench seats) from their mobility device using the carousel's assistance ramp. Guests can also stay on certain mobility devices without needing to transfer.
+        Guests are able to transfer to a figure or chariot (fixed bench seats) from their mobility device using the
+        carousel's assistance ramp. Guests can also be able to ride while using certain mobility devices without needing
+        to transfer.
       </p>
       <p>
         Consult with the carousel operator of your needs before you ride.
@@ -116,20 +146,67 @@
     </div>
 
     <div class="col">
-      <h4>
+      <h3>
         May I ride more than once?
-      </h4>
+      </h3>
       <p>
         Of course you can! You will need to exit and reenter the queue.
       </p>
     </div>
 
     <div class="col">
-      <h4>
-        Other Important Notices:
-      </h4>
+      <h3>
+        What's the carousel's history?
+      </h3>
+      <div class="row justify-content-between">
+        <div class="col">
+          <p>
+            The LeRoy King is a carousel by <a href="https://en.wikipedia.org/wiki/Charles_I._D._Looff"
+              target="_blank">Charles I.D. Looff</a> and is one of over 40 carousels he created in his lifetime. He is
+            credited for created the Coney Island style of carousel, characterized as flamboyant horses with jewels and
+            gold or silver leaf.
+          </p>
+          <p>
+            First commissioned to be installed at Steeplechase Park in San Francisco, the 1906 earthquake disrupted the
+            planned installation. Instead, Looff later installed the carousel an amusement park he built in Seattle: <a
+              href="https://www.historylink.org/File/1390" target="_blank">Luna
+              Park</a>. After a fire occurred at Luna Park in 1913, the undamaged carousel was
+            relocated to <a href="https://www.sfchronicle.com/projects/2022/visuals/playland-at-the-beach/"
+              target="_blank">San
+              Francisco's Playland at the Beach</a>.
+          </p>
+          <p>
+            When Playland closed in 1972, it was sold to carousel collector and restorer <a
+              href="https://carouselhistory.com/marianne-stevens-jan-1929-sept-2012/" target="_blank">Marianne
+              Stevens</a>. After storing the carousel in New Mexico for a few
+            years, the carousel would operate from 1982 to 1998 under lease to Shoreline Village in Long Beach, CA.
+          </p>
+          <p>
+            In 1994, the City of San Francisco purchased the carousel and in the summer of 1998 returned to San Francisco
+            at it's current location at Yerba Buena Gardens. In 2014, the carousel was refurbished and dedicated to San
+            Francisco Redevelopment commissioner <a
+              href="https://usfblogs.usfca.edu/sfchangemakers/2020/07/03/leroy-king/" target="_blank">LeRoy King</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h3>
+        How do I contact you, Seg?
+      </h3>
       <p>
-        This project is not affiliated with any convention, conference, it's holding companies, etc. It's just some dude paying for free rides at a carousel and then made a website to tell people about it.
+        Reach me via email. At the risk of getting this email picked up by spam bots: seg [at] the domain of this website
+      </p>
+    </div>
+
+    <div class="col">
+      <h3>
+        Other Important Notices:
+      </h3>
+      <p>
+        This project is not affiliated with any convention, conference, it's holding companies, etc. It's just some dude
+        paying for free rides at a carousel and then made a website to tell people about it.
       </p>
     </div>
 
