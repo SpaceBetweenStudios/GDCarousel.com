@@ -141,7 +141,7 @@
         to transfer.
       </p>
       <p>
-        Consult with the carousel operator of your needs before you ride.
+        Consult with the carousel operator regarding your needs before you ride.
       </p>
     </div>
 
