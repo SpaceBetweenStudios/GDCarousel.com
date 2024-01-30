@@ -1,5 +1,5 @@
 <template>
-  <template v-if="!isPROD">
+  <template v-if="!isPROD || true">
     <div class="container-fluid text-bg-danger text-center p-1">
       PREVIEW - DO NOT DISTRIBUTE THIS EXACT URL
     </div>
