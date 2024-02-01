@@ -26,7 +26,7 @@
         "https://example.com/photos/4x3/photo.jpg",
         "https://example.com/photos/16x9/photo.jpg"
       ], -->
-      "description": "Free carousel rides for everyone at the LaRoy King Carousel, courtesy of John 'Seg' Seggerson.",
+      "description": "Free carousel rides for everyone at the LeRoy King Carousel, courtesy of John 'Seg' Seggerson.",
       "offers": {
       "@type": "Offer",
       "price": "0",

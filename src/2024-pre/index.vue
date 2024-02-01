@@ -44,7 +44,7 @@
         Location:
       </h2>
       <p>
-        The LaRoy King Carousel is located next door to Mascone South on the corner of Howard Street & 4th Street.
+        The LeRoy King Carousel is located next door to Moscone South on the corner of Howard Street & 4th Street.
       </p>
       <address>
         221 4th St, San Francisco, CA 94103
@@ -64,10 +64,10 @@
       </p>
       <ul>
         <li>
-          On Howard Street on street level next to Mascone South.
+          On Howard Street on street level next to Moscone South.
         </li>
         <li>
-          Via the skyway connecting to the Yerba Buena Main Lawn &amp; The Metron.
+          Via the skyway connecting to the Yerba Buena Main Lawn &amp; The Metreon.
         </li>
       </ul>
     </div>

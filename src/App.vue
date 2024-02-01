@@ -10,7 +10,7 @@
         🎮 🧑‍💻 🎠
       </div>
       <h1>Game Developer Carousel</h1>
-      <div class="h4">The LeRoy King Carousel at Yerba Buena Center</div>
+      <div class="h4">The LeRoy King Carousel at Yerba Buena Gardens</div>
       <div class="h3">Thursday, March 21, 2024</div>
       <div class="h4">11:00am - 6:00pm</div>
       <div class="lead">Free for all!</div>
