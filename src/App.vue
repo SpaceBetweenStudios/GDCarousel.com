@@ -7,7 +7,7 @@
   <div class="container-fluid mb-5 bg-photo-plaza-seg">
     <div class="px-4 py-5 mb-3 text-center">
       <div class="display-1 mb-2" role="img"
-        aria-details="The emoji icons of game controller, technologist, and carousel horse.">
+        aria-label="The emoji icons of game controller, technologist, and carousel horse.">
         🎮 🧑‍💻 🎠
       </div>
       <h1>Game Developer Carousel</h1>
@@ -25,7 +25,7 @@
   <div class="container-fluid">
     <div class="row row-cols-auto justify-content-center bg-photo-plaza-seg px-4 py-5">
       <div class="col display-1 text-center" role="img"
-        aria-details="The emoji icons of game controller, technologist, and carousel horse.">
+        aria-label="The emoji icons of game controller, technologist, and carousel horse.">
         🎮 🧑‍💻 🎠
       </div>
     </div>
