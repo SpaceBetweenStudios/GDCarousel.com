@@ -4,37 +4,41 @@
       <p class="h2">
         No cost. No catch. Everyone can ride.
       </p>
+      <p class="fs-5 mb-1">
+        During the Game Developer Conference, take a ride on a carousel for a moment of whimsy.
+      </p>
       <p class="fs-5">
-        During the Game Developer Conference, take a ride on a carousel for a moment of whimsy. It's next to the Moscone
-        Center.
+        Located next door to Moscone Center South building.
       </p>
     </div>
   </div>
 
-  <div class="row row-cols-1 row-cols-sm-2 justify-content-between g-3 my-5">
+  <div class="row row-cols-1 row-cols-sm-auto justify-content-around g-3 my-5">
     <div class="col text-center">
-      <div class="mb-3">
-        <icon :icon="['fab', 'facebook']" size="4x" />
-      </div>
-      <div class="fs-5">
-        Facebook Event
-      </div>
-    </div>
-    <div class="col text-center">
-      <div class="mb-3">
-        <a href="/gdcarousel.ics">
-          <icon :icon="['far', 'calendar-plus']" size="4x" />
-        </a>
-      </div>
-      <div>
-        <div class="fs-5">
-          <a href="/gdcarousel.ics">
-            iCal File
-          </a>
+      <a href="/gdcarousel.ics">
+        <div class="mb-3">
+          <icon :icon="['far', 'calendar-check']" size="4x" />
         </div>
         <div>
-          (Google Calendar, Outlook, etc.)
+          <div class="fs-5">
+            iCal File
+          </div>
+          <div>
+            (Google Calendar, Outlook, etc.)
+          </div>
         </div>
+      </a>
+    </div>
+    <div class="col text-center">
+      <div>
+        <a href="https://www.facebook.com/events/1079567859951253/" target="_blank">
+          <div class="mb-3">
+            <icon :icon="['fab', 'facebook']" size="4x" />
+          </div>
+          <div class="fs-5">
+            Facebook Event
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -89,13 +93,13 @@ import {
   faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import {
-  faCalendarPlus,
+  faCalendarCheck,
 } from '@fortawesome/free-regular-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 library.add(
   faFacebook,
-  faCalendarPlus,
+  faCalendarCheck,
 )
 
 export default defineComponent({
