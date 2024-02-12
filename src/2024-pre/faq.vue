@@ -227,7 +227,7 @@ import ImgCCM from '@/assets/CCM-Logo-Primary-Grey-4.webp'
 export default defineComponent({
   name: '2024-faq',
 
-  setup() {
+  setup () {
     return {
       ImgSeg,
       ImgCCM,

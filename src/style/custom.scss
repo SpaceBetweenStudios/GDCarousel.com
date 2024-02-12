@@ -1,0 +1,42 @@
+html {
+  --bs-font-sans-serif: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bg-photo-steven-clark-figure {
+  background-image: url('@/assets/steven-clark-figure-fade.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-photo-plaza-seg {
+  background-image: url('@/assets/plaza-seg-fade.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.font-neoneon {
+  font-family: 'Neo Neon', $font-family-sans-serif;
+}
+
+.main-title {
+  font-family: 'Neo Neon', $font-family-sans-serif;
+  // color: #F346FF;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+
+  background: linear-gradient(#F346FF, #23ACFF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  .line-start {
+    font-size: 2.3rem;
+    display: block;
+  }
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #000000;
+}
