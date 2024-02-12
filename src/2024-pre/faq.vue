@@ -7,46 +7,45 @@
     </div>
 
     <div class="col">
-      <div class="row justify-content-between">
-        <div class="col-12 col-sm-5 col-lg-7 col-xl-8">
-          <h3>
-            Who's doing this?
-          </h3>
-          <p>
-            I'm <a href="https://seg.fyi/" target="_blank">John "Seg" Seggerson</a>, a former game developer and now an
-            experience designer for immersive / themed entertainment. With a donation to the <a
-              href="https://creativity.org/" target="_blank">The Children's Creativity Museum</a>, I am sponsoring the
-            operation of the <a href="https://creativity.org/carousel/" target="_blank">LeRoy King Carousel</a> for the
-            day.
-          </p>
-          <p>
-            In my gaming career, I worked with 13 different franchises including Sam &amp; Max, Monkey Island, the Walking
-            Dead, and Graham Annable's Grickle. After moving away from the game industry, I started a career in experience
-            design and immersive theatre.
-          </p>
-          <p>
-            I've worked with The Rathskeller Club, an immersive theatre venue located in the Mission district of San
-            Francisco. Putting on numerous immersive theatre shows and experiences, I developed a process for safety and
-            consent in immersive productions.
-          </p>
-          <p>
-            In 2017 I co-produced a GDC party at the Rathskeller to introduce immersive productions to the video game
-            industry. If you were invited to an undisclosed place in the Mission district of San Francisco and went down a
-            wooden slide, then you know what I'm talking about. Since the slide is no more, this year's event is scaled
-            down but in a much more accessible and public venue.
-          </p>
-          <p>
-            I'll be there the whole day! Likely helping out with line management as I can't help but be a house manager
-            and work line operations. I'll certainly be free to chat about immersive experiences, themed entertainment,
-            and some free consulting.
-          </p>
+      <h3>
+        Who's doing this?
+      </h3>
+      <div>
+        <div class="text-center text-md-start my-3 my-md-0 float-md-end">
+          <img :src="ImgSeg" class="rounded img-fluid px-4" :style="{ maxHeight: '450px' }"
+            alt="John 'Seg' Seggerson with crossed arms looking at the camera." />
         </div>
-        <div class="col-12 col-sm-7 col-lg-5 col-xl-4 text-center text-lg-end">
-          <div>
-            <img :src="ImgSeg" class="rounded img-fluid" :style="{ maxHeight: '450px' }"
-              alt="John 'Seg' Seggerson with crossed arms looking at the camera." />
-          </div>
-        </div>
+        <p>
+          I'm <a href="https://seg.fyi/" target="_blank">John "Seg" Seggerson</a>, a former game developer and now an
+          experience designer for immersive / themed entertainment. With a donation to the <a
+            href="https://creativity.org/" target="_blank">The Children's Creativity Museum</a>, I am sponsoring the
+          operation of the <a href="https://creativity.org/carousel/" target="_blank">LeRoy King Carousel</a> for the
+          day.
+        </p>
+        <p>
+          In my gaming career, I worked with 13 different franchises including Sam &amp; Max, Monkey Island, the
+          Walking
+          Dead, and Graham Annable's Grickle. After moving away from the game industry, I started a career in
+          experience
+          design and immersive theatre.
+        </p>
+        <p>
+          I've worked with The Rathskeller Club, an immersive theatre venue located in the Mission district of San
+          Francisco. Putting on numerous immersive theatre shows and experiences, I developed a process for safety and
+          consent in immersive productions.
+        </p>
+        <p>
+          In 2017 I co-produced a GDC party at the Rathskeller to introduce immersive productions to the video game
+          industry. If you were invited to an undisclosed place in the Mission district of San Francisco and went down
+          a
+          wooden slide, then you know what I'm talking about. Since the slide is no more, this year's event is scaled
+          down but in a much more accessible and public venue.
+        </p>
+        <p>
+          I'll be there the whole day! Likely helping out with line management as I can't help but be a house manager
+          and work line operations. I'll certainly be free to chat about immersive experiences, themed entertainment,
+          and some free consulting.
+        </p>
       </div>
     </div>
 
@@ -227,7 +226,7 @@ import ImgCCM from '@/assets/CCM-Logo-Primary-Grey-4.webp'
 export default defineComponent({
   name: '2024-faq',
 
-  setup () {
+  setup() {
     return {
       ImgSeg,
       ImgCCM,

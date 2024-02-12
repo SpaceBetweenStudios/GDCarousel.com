@@ -10,7 +10,7 @@
         <picture>
           <source type="image/webp" :srcset="ImgGDCarouselLogo">
           <source type="image/png" :srcset="ImgGDCarouselLogoPng">
-          <img :src="ImgGDCarouselLogoPng" class="" alt="Game Developer Carousel Logo" :style="{height: '200px'}"/>
+          <img :src="ImgGDCarouselLogoPng" class="" alt="Game Developer Carousel Logo" :style="{ height: '200px' }" />
         </picture>
       </div>
       <h1 class="main-title"><span class="line-start">Game Developer</span> Carousel</h1>
@@ -54,7 +54,7 @@ export default defineComponent({
     StructuredData,
   },
 
-  setup () {
+  setup() {
     return {
       ImgGDCarouselLogo,
       ImgGDCarouselLogoPng,

@@ -1,9 +1,8 @@
 <template>
-
   <div class="bg-photo-steven-clark-figure">
     <div class="container-fluid mb-5 p-5">
       <div class="row justify-content-center align-items-center">
-        <div class="col text-center">
+        <div class="col text-center text-shadow">
           <p class="h2 text-gdcarousel">
             No cost. No catch. Everyone can ride.
           </p>
@@ -90,7 +89,8 @@
         </ul>
       </div>
       <div class="col-12 col-lg-8 order-lg-3">
-        <img :src="ImgMapSvg" class="img-fluid" alt="Stylized map locating the LeRoy Carousel in relationship to the Moscone Center." />
+        <img :src="ImgMapSvg" class="img-fluid"
+          alt="Stylized map locating the LeRoy Carousel in relationship to the Moscone Center." />
       </div>
       <div class="col-12 col-lg-6">
         <p>
@@ -115,7 +115,6 @@
   <div class="container">
     <FAQ />
   </div>
-
 </template>
 
 <script lang="ts">
@@ -146,7 +145,7 @@ export default defineComponent({
     FAQ,
   },
 
-  setup () {
+  setup() {
     const urlCal = new URL('gdcarousel.ics', window.location.origin)
     const urlWebCal = `webcal://${window.location.host}/gdcarousel.ics`
 
