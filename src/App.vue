@@ -7,7 +7,11 @@
   <div class="container">
     <div class="px-4 pt-3 pb-5 text-center">
       <div class="mb-2">
-        <img :src="ImgGDCarouselLogo" class="" alt="Game Developer Carousel Logo" :style="{height: '200px'}"/>
+        <picture>
+          <source type="image/webp" :srcset="ImgGDCarouselLogo">
+          <source type="image/png" :srcset="ImgGDCarouselLogoPng">
+          <img :src="ImgGDCarouselLogoPng" class="" alt="Game Developer Carousel Logo" :style="{height: '200px'}"/>
+        </picture>
       </div>
       <h1 class="main-title"><span class="line-start">Game Developer</span> Carousel</h1>
       <div class="h4 text-info">The LeRoy King Carousel at Yerba Buena Gardens</div>
@@ -39,7 +43,8 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import ImgGDCarouselLogo from '@/assets/logo-draft-00.png'
+import ImgGDCarouselLogo from '@/assets/logo-draft-00.webp'
+import ImgGDCarouselLogoPng from '@/assets/logo-draft-00.png'
 import StructuredData from '@/components/structured-data.vue'
 
 export default defineComponent({
@@ -52,6 +57,7 @@ export default defineComponent({
   setup () {
     return {
       ImgGDCarouselLogo,
+      ImgGDCarouselLogoPng,
     }
   },
 

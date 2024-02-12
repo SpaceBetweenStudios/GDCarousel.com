@@ -24,7 +24,7 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a :href="urlWebCal">
+            <a :href="urlWebCal" aria-label="Subscribe to Calendar">
               <icon :icon="['far', 'calendar-check']" size="3x" />
             </a>
           </div>
@@ -38,7 +38,7 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a :href="urlCal.href">
+            <a :href="urlCal.href" aria-label="Add to Calendar">
               <icon :icon="['far', 'calendar-plus']" size="3x" />
             </a>
           </div>
@@ -52,12 +52,12 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a href="https://www.facebook.com/events/1079567859951253/" >
+            <a href="https://www.facebook.com/events/1079567859951253/" target="_blank" aria-label="Facebook Event">
               <icon :icon="['fab', 'facebook']" size="3x" />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a href="https://www.facebook.com/events/1079567859951253/"  class="fs-3">
+            <a href="https://www.facebook.com/events/1079567859951253/" target="_blank" class="fs-3">
               Facebook Event
             </a>
           </div>
@@ -90,7 +90,7 @@
         </ul>
       </div>
       <div class="col-12 col-lg-8 order-lg-3">
-        <img :src="ImgMapSvg" class="img-fluid" />
+        <img :src="ImgMapSvg" class="img-fluid" alt="Stylized map locating the LeRoy Carousel in relationship to the Moscone Center." />
       </div>
       <div class="col-12 col-lg-6">
         <p>
