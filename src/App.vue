@@ -21,7 +21,7 @@
 
   <RouterView />
 
-  <div class=" bg-photo-plaza-seg">
+  <div class="bg-photo-plaza-seg">
     <div class="container">
       <div class="row row-cols-1 justify-content-center gy-1 px-4 py-5">
         <div class="col display-2 text-center font-neoneon text-gdcarousel text-shadow">
@@ -34,8 +34,6 @@
       </div>
     </div>
   </div>
-
-  <StructuredData />
 </template>
 
 <script lang="ts">
@@ -46,14 +44,11 @@ import ImgGDCarouselLogoPng from '@/assets/gdcarousel-icon-only.png'
 
 import LogoAnimated from '@/components/logo-animated.vue'
 
-import StructuredData from '@/components/structured-data.vue'
-
 export default defineComponent({
   name: 'app',
 
   components: {
     LogoAnimated,
-    StructuredData,
   },
 
   setup() {

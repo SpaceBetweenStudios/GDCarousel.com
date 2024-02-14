@@ -107,17 +107,17 @@
       <h3>
         Who operates the carousel?
       </h3>
-      <div class="row justify-content-between">
-        <div class="col">
+      <div class="">
+        <div class="text-center text-md-start my-3 my-md-0 float-md-end">
+          <a href="https://creativity.org/" target="_blank">
+            <img :src="ImgCCM" class="img-fluid" alt="Children's Creativity Museum" />
+          </a>
+        </div>
+        <div>
           <p>
             The carousel is now operated by Yerba Buena Gardens Conservancy. The <a href="https://creativity.org/"
               target="_blank">Children's Creativity Museum</a> is currently subcontracted to provide ride operators.
           </p>
-        </div>
-        <div class="col-auto">
-          <a href="https://creativity.org/" target="_blank">
-            <img :src="ImgCCM" class="img-fluid" alt="Children's Creativity Museum" />
-          </a>
         </div>
       </div>
     </div>

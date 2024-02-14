@@ -113,6 +113,29 @@
   </div>
 
   <div class="container">
+    <h2>
+      Social Media:
+    </h2>
+    <div class="row row-cols-auto g-3 fs-3 mb-4">
+      <div class="col">
+        <a href="https://facebook.com/GDCarousel">
+          <icon :icon="['fab', 'facebook']" fixed-width /> Facebook
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.instagram.com/gdcarousel">
+          <icon :icon="['fab', 'instagram']" fixed-width /> Instagram
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.threads.net/@gdcarousel">
+          <icon :icon="['fab', 'threads']" fixed-width /> Threads
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
     <FAQ />
   </div>
 </template>
@@ -125,6 +148,8 @@ import FAQ from '@/2024-pre/faq.vue'
 
 import {
   faFacebook,
+  faInstagram,
+  faThreads,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faCalendarCheck,
@@ -134,6 +159,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 library.add(
   faFacebook,
+  faInstagram,
+  faThreads,
   faCalendarCheck,
   faCalendarPlus,
 )
