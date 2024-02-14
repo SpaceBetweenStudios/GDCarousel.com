@@ -40,3 +40,84 @@ html {
 .text-shadow {
   text-shadow: 2px 2px 2px #000000;
 }
+
+.gdcarousel-logo-animated {
+  position: relative;
+  width: 200px;
+
+  .gdcarousel-logo-animated-base {
+    width: 200px;
+    height: 200px;
+    -webkit-user-drag: none;
+
+    img {
+      -webkit-user-drag: none;
+    }
+  }
+  .gdcarousel-logo-animated-figure {
+    position: absolute;
+    top: 93.5px;
+    width: 100px;
+
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0.75, 0.95);
+
+    -webkit-user-drag: none;
+
+    img {
+      -webkit-user-drag: none;
+    }
+
+    &.figure-a {
+      left: -4px;
+      animation-name: figureAnimationA;
+      @media (prefers-reduced-motion) {
+        animation-name: none;
+      }
+    }
+    &.figure-b {
+      left: 104px;
+      animation-name: figureAnimationB;
+      @media (prefers-reduced-motion) {
+        animation-name: none;
+      }
+    }
+  }
+}
+
+@keyframes figureAnimationA {
+  0% {
+    top: 93.5px;
+  }
+
+  25% {
+    top: 87px;
+  }
+
+  75% {
+    top: 100px;
+  }
+
+  100% {
+    top: 93.5px;
+  }
+}
+
+@keyframes figureAnimationB {
+  0% {
+    top: 93.5px;
+  }
+
+  25% {
+    top: 100px;
+  }
+
+  75% {
+    top: 87px;
+  }
+
+  100% {
+    top: 93.5px;
+  }
+}

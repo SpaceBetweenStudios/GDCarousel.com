@@ -6,12 +6,10 @@
   </template>
   <div class="container">
     <div class="px-4 pt-3 pb-5 text-center">
-      <div class="mb-2">
-        <picture>
-          <source type="image/webp" :srcset="ImgGDCarouselLogo">
-          <source type="image/png" :srcset="ImgGDCarouselLogoPng">
-          <img :src="ImgGDCarouselLogoPng" class="" alt="Game Developer Carousel Logo" :style="{ height: '200px' }" />
-        </picture>
+      <div class="mb-2 row row-cols-auto justify-content-center">
+        <div class="col">
+          <LogoAnimated />
+        </div>
       </div>
       <h1 class="main-title"><span class="line-start">Game Developer</span> Carousel</h1>
       <div class="h4 text-info">The LeRoy King Carousel at Yerba Buena Gardens</div>
@@ -45,12 +43,16 @@ import { defineComponent } from 'vue'
 
 import ImgGDCarouselLogo from '@/assets/gdcarousel-icon-only.webp'
 import ImgGDCarouselLogoPng from '@/assets/gdcarousel-icon-only.png'
+
+import LogoAnimated from '@/components/logo-animated.vue'
+
 import StructuredData from '@/components/structured-data.vue'
 
 export default defineComponent({
   name: 'app',
 
   components: {
+    LogoAnimated,
     StructuredData,
   },
 
