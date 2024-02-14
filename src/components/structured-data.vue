@@ -22,7 +22,7 @@
       }
       },
       "image": [
-      "https://gdcarousel.com/og/social-media-preview.jpg"
+      "https://gdcarousel.com/og/social-media-preview.png"
       ],
       "description": "Carousel rides for everyone at the LeRoy King Carousel. No cost. No catch. Everyone can ride!
       Courtesy of John 'Seg' Seggerson.",
