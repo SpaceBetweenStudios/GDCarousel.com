@@ -43,8 +43,8 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import ImgGDCarouselLogo from '@/assets/logo-draft-00.webp'
-import ImgGDCarouselLogoPng from '@/assets/logo-draft-00.png'
+import ImgGDCarouselLogo from '@/assets/gdcarousel-icon-only.webp'
+import ImgGDCarouselLogoPng from '@/assets/gdcarousel-icon-only.png'
 import StructuredData from '@/components/structured-data.vue'
 
 export default defineComponent({

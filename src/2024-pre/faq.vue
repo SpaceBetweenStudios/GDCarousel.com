@@ -206,6 +206,15 @@
 
     <div class="col">
       <h3>
+        Who did that logo?
+      </h3>
+      <p>
+        <a href="https://starrnoir.com/" target="_blank">Starr Noir Design</a>. You can contact Starr on Gmail at StarrNoirDesign
+      </p>
+    </div>
+
+    <div class="col">
+      <h3>
         Other Important Notices:
       </h3>
       <p>
