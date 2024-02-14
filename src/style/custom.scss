@@ -1,0 +1,118 @@
+html {
+  --bs-font-sans-serif: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bg-photo-steven-clark-figure {
+  background-image: url('@/assets/steven-clark-figure-fade.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-photo-plaza-seg {
+  background-image: url('@/assets/plaza-seg-fade.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.font-neoneon {
+  font-family: 'Neo Neon', $font-family-sans-serif;
+}
+
+.main-title {
+  font-family: 'Neo Neon', $font-family-sans-serif;
+  color: #FC4DAE;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+
+  .line-start {
+    font-size: 2.3rem;
+    display: block;
+  }
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.gdcarousel-logo-animated {
+  position: relative;
+  width: 200px;
+
+  .gdcarousel-logo-animated-base {
+    width: 200px;
+    height: 200px;
+
+    -webkit-user-drag: none;
+    img {
+      -webkit-user-drag: none;
+    }
+  }
+  .gdcarousel-logo-animated-figure {
+    position: absolute;
+    top: 94px;
+    width: 100px;
+
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0.75, 0.95);
+
+    -webkit-user-drag: none;
+    img {
+      -webkit-user-drag: none;
+    }
+
+    &.figure-a {
+      left: -4px;
+      animation-name: figureAnimationA;
+      @media (prefers-reduced-motion) {
+        animation-name: none;
+      }
+    }
+    &.figure-b {
+      left: 104px;
+      animation-name: figureAnimationB;
+      @media (prefers-reduced-motion) {
+        animation-name: none;
+      }
+    }
+  }
+}
+
+@keyframes figureAnimationA {
+  0% {
+    top: 94px;
+  }
+
+  25% {
+    top: 87px;
+  }
+
+  75% {
+    top: 100px;
+  }
+
+  100% {
+    top: 94px;
+  }
+}
+
+@keyframes figureAnimationB {
+  0% {
+    top: 94px;
+  }
+
+  25% {
+    top: 100px;
+  }
+
+  75% {
+    top: 87px;
+  }
+
+  100% {
+    top: 94px;
+  }
+}

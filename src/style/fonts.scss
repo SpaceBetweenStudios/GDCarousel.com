@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Neo Neon';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/neoneon/neoneon.woff2') format('woff2'),
+  url('/fonts/neoneon/neoneon.tff') format('tff'),
+  url('/fonts/neoneon/neoneon.off') format('off');
+}
+
+$opensans-weights: 200, 300, 400, 500, 600, 700, 900;
+@each $weight in $opensans-weights {
+  @font-face {
+    font-family: 'Open Sans';
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/opensans/opensans-#{$weight}.woff2') format('woff2'),
+    url('/fonts/opensans/opensans-#{$weight}.tff') format('tff');
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    font-weight: $weight;
+    font-style: italic;
+    font-display: swap;
+    src: url('/fonts/opensans/opensans-#{$weight}-italic.woff2') format('woff2'),
+    url('/fonts/opensans/opensans-#{$weight}-italic.tff') format('tff');
+  }
+}
