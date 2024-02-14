@@ -3,20 +3,20 @@
   <picture>
     <source type="image/webp" :srcset="ImgGDCarouselBaseWebp">
     <source type="image/png" :srcset="ImgGDCarouselBasePng">
-    <img :src="ImgGDCarouselBasePng" class="gdcarousel-logo-animated-base user-select-none" />
+    <img :src="ImgGDCarouselBasePng" class="gdcarousel-logo-animated-base user-select-none" alt="An outline of a carousel." />
   </picture>
   <div class="gdcarousel-logo-animated-figure figure-a user-select-none">
     <picture>
       <source type="image/webp" :srcset="ImgGDCarouselFigureWebp">
       <source type="image/png" :srcset="ImgGDCarouselFigurePng">
-      <img :src="ImgGDCarouselFigurePng" class="img-fluid user-select-none" />
+      <img :src="ImgGDCarouselFigurePng" class="img-fluid user-select-none" alt="An outline of a carousel figure in the shape of a horse." />
     </picture>
   </div>
   <div class="gdcarousel-logo-animated-figure figure-b user-select-none">
     <picture>
       <source type="image/webp" :srcset="ImgGDCarouselFigureWebp">
       <source type="image/png" :srcset="ImgGDCarouselFigurePng">
-      <img :src="ImgGDCarouselFigurePng" class="img-fluid user-select-none" />
+      <img :src="ImgGDCarouselFigurePng" class="img-fluid user-select-none" alt="An outline of a carousel figure in the shape of a horse." />
     </picture>
   </div>
  </div>
