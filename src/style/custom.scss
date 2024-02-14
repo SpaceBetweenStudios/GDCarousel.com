@@ -22,14 +22,10 @@ html {
 
 .main-title {
   font-family: 'Neo Neon', $font-family-sans-serif;
-  // color: #F346FF;
+  color: #FC4DAE;
   font-weight: bold;
   font-size: 4rem;
   line-height: 1;
-
-  background: linear-gradient(#F346FF, #23ACFF);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 
   .line-start {
     font-size: 2.3rem;
@@ -48,15 +44,15 @@ html {
   .gdcarousel-logo-animated-base {
     width: 200px;
     height: 200px;
-    -webkit-user-drag: none;
 
+    -webkit-user-drag: none;
     img {
       -webkit-user-drag: none;
     }
   }
   .gdcarousel-logo-animated-figure {
     position: absolute;
-    top: 93.5px;
+    top: 94px;
     width: 100px;
 
     animation-duration: 5s;
@@ -64,7 +60,6 @@ html {
     animation-timing-function: cubic-bezier(0, 0, 0.75, 0.95);
 
     -webkit-user-drag: none;
-
     img {
       -webkit-user-drag: none;
     }
@@ -88,7 +83,7 @@ html {
 
 @keyframes figureAnimationA {
   0% {
-    top: 93.5px;
+    top: 94px;
   }
 
   25% {
@@ -100,13 +95,13 @@ html {
   }
 
   100% {
-    top: 93.5px;
+    top: 94px;
   }
 }
 
 @keyframes figureAnimationB {
   0% {
-    top: 93.5px;
+    top: 94px;
   }
 
   25% {
@@ -118,6 +113,6 @@ html {
   }
 
   100% {
-    top: 93.5px;
+    top: 94px;
   }
 }
