@@ -1,9 +1,4 @@
 <template>
-  <template v-if="!isPROD || true">
-    <div class="container-fluid text-bg-danger text-center p-1">
-      PREVIEW - DO NOT DISTRIBUTE THIS EXACT URL
-    </div>
-  </template>
   <div class="container">
     <div class="px-4 pt-3 pb-5 text-center">
       <div class="mb-2 row row-cols-auto justify-content-center">
@@ -56,14 +51,6 @@ export default defineComponent({
       ImgGDCarouselLogo,
       ImgGDCarouselLogoPng,
     }
-  },
-
-  computed: {
-
-    isPROD() {
-      return import.meta.env.PROD && (window.location.origin.toLowerCase() === 'https://gdcarousel.com/')
-    },
-
   },
 
 })

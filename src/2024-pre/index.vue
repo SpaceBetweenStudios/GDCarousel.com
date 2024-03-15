@@ -18,6 +18,10 @@
   </div>
 
   <div class="container mb-5">
+    <NewsletterForm />
+  </div>
+
+  <div class="container mb-5">
 
     <div class="row row-cols-1 row-cols-sm-auto g-4 justify-content-sm-center">
       <div class="col">
@@ -51,6 +55,20 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
+            <a href="https://buttondown.email/GDCarousel/rss" target="_blank" aria-label="Facebook Event">
+              <icon :icon="['fas', 'square-rss']" size="3x" />
+            </a>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <a href="https://buttondown.email/GDCarousel/rss" target="_blank" class="fs-3">
+              RSS Feed
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
             <a href="https://www.facebook.com/events/1079567859951253/" target="_blank" aria-label="Facebook Event">
               <icon :icon="['fab', 'facebook']" size="3x" />
             </a>
@@ -63,6 +81,52 @@
         </div>
       </div>
     </div>
+
+    <div class="row row-cols-1 row-cols-sm-auto g-4 mt-2 fs-4 justify-content-sm-center">
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <a href="https://facebook.com/GDCarousel" aria-label="Facebook">
+              <icon :icon="['fab', 'facebook']" />
+            </a>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <a href="https://facebook.com/GDCarousel" class="fs-4">
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <a href="https://www.instagram.com/gdcarousel" aria-label="Instagram">
+              <icon :icon="['fab', 'instagram']" />
+            </a>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <a href="https://www.instagram.com/gdcarousel" class="fs-4">
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <a href="https://www.threads.net/@gdcarousel" aria-label="Instagram">
+              <icon :icon="['fab', 'threads']" />
+            </a>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <a href="https://www.threads.net/@gdcarousel" class="fs-4">
+              Threads
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <div class="container">
@@ -113,29 +177,6 @@
   </div>
 
   <div class="container">
-    <h2>
-      Social Media:
-    </h2>
-    <div class="row row-cols-auto g-3 fs-3 mb-4">
-      <div class="col">
-        <a href="https://facebook.com/GDCarousel">
-          <icon :icon="['fab', 'facebook']" fixed-width /> Facebook
-        </a>
-      </div>
-      <div class="col">
-        <a href="https://www.instagram.com/gdcarousel">
-          <icon :icon="['fab', 'instagram']" fixed-width /> Instagram
-        </a>
-      </div>
-      <div class="col">
-        <a href="https://www.threads.net/@gdcarousel">
-          <icon :icon="['fab', 'threads']" fixed-width /> Threads
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
     <FAQ />
   </div>
 </template>
@@ -143,8 +184,9 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import ImgMapSvg from '@/assets/map-00.svg'
+import NewsletterForm from '@/components/newsletter.vue'
 import FAQ from '@/2024-pre/faq.vue'
+import ImgMapSvg from '@/assets/map-00.svg'
 
 import {
   faFacebook,
@@ -155,6 +197,9 @@ import {
   faCalendarCheck,
   faCalendarPlus,
 } from '@fortawesome/free-regular-svg-icons'
+import {
+  faSquareRss
+} from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 library.add(
@@ -163,12 +208,14 @@ library.add(
   faThreads,
   faCalendarCheck,
   faCalendarPlus,
+  faSquareRss,
 )
 
 export default defineComponent({
   name: '2024-pre',
 
   components: {
+    NewsletterForm,
     FAQ,
   },
 
