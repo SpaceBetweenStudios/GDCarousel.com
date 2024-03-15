@@ -1,17 +1,30 @@
 <template>
   <div class="bg-photo-steven-clark-figure">
-    <div class="container-fluid mb-5 p-5">
-      <div class="row justify-content-center align-items-center">
-        <div class="col text-center text-shadow">
-          <p class="h2 text-gdcarousel">
+    <div class="container mb-5 p-5">
+      <div class="row row-cols-1 row-cols-md-2 justify-content-center align-items-center gy-2 gx-5">
+        <div class="col text-center">
+          <p class="h2 text-gdcarousel text-shadow">
             No cost. No catch. Everyone can ride.
           </p>
-          <p class="fs-5 mb-1">
+          <p class="fs-5 text-shadow mb-1">
             During the Game Developer Conference, take a ride on a carousel for a moment of whimsy.
           </p>
-          <p class="fs-5">
+          <p class="fs-5 text-shadow mb-1">
             Located next door to Moscone Center South building.
           </p>
+          <div class="fs-2">
+            🎮 🧑‍💻 🎠
+          </div>
+        </div>
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315"
+              src="https://www.youtube-nocookie.com/embed/ukbMBcUCY2A?si=toCQoRn_y3pl11pl&cc_load_policy=1&controls=0"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+
         </div>
       </div>
     </div>
