@@ -18,6 +18,7 @@ export default defineConfig({
         api: "legacy",
         silenceDeprecations: [
           "legacy-js-api",
+          "global-builtin",
           "import",
         ],
       }
