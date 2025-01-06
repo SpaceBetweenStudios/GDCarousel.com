@@ -31,8 +31,11 @@
             required
             placeholder=""
             :disabled="loading"
-          />
-          <label for="bd-email" class="form-label">Enter your email</label>
+          >
+          <label
+            for="bd-email"
+            class="form-label"
+          >Enter your email</label>
         </div>
         <button
           class="btn btn-gdcarousel"
@@ -48,7 +51,10 @@
         </div>
       </template>
       <div class="form-text">
-        <a href="https://buttondown.email/refer/GDCarousel" target="_blank">Powered by Buttondown.</a>
+        <a
+          href="https://buttondown.email/refer/GDCarousel"
+          target="_blank"
+        >Powered by Buttondown.</a>
       </div>
     </form>
   </template>
@@ -65,7 +71,7 @@ interface Data {
 }
 
 export default defineComponent({
-  name: 'comp-newsletter',
+  name: 'CompNewsletter',
 
   setup () {
     const theForm = ref<HTMLFormElement>()

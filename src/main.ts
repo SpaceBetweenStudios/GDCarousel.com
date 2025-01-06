@@ -8,8 +8,9 @@ import App from './App.vue'
 import router from './_routes'
 
 const app = createApp(App)
-app.component('icon', FontAwesomeIcon)
-app.component('icon-layers', FontAwesomeLayers)
-app.component('icon-layers-text', FontAwesomeLayersText)
+// eslint-disable-next-line vue/multi-word-component-names
+app.component('Icon', FontAwesomeIcon)
+app.component('IconLayers', FontAwesomeLayers)
+app.component('IconLayersText', FontAwesomeLayersText)
 app.use(router)
 app.mount('#app')
