@@ -9,6 +9,20 @@ export default defineConfig({
     eslintPlugin(),
     vue(),
   ],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        quietDeps: true,
+        verbose: true,
+        /** Need to wait for Bootstrap to update before moving forward */
+        api: "legacy",
+        silenceDeprecations: [
+          "legacy-js-api",
+          "import",
+        ],
+      }
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
