@@ -141,6 +141,26 @@
         <div class="d-flex">
           <div class="flex-shrink-0">
             <a
+              href="https://bsky.app/profile/gdcarousel.com"
+              aria-label="Bluesky"
+            >
+              <icon :icon="['fab', 'bluesky']" />
+            </a>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <a
+              href="https://bsky.app/profile/gdcarousel.com"
+              class="fs-4"
+            >
+              Bluesky
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <a
               href="https://facebook.com/GDCarousel"
               aria-label="Facebook"
             >
@@ -266,6 +286,7 @@ import FAQ from '@/2024-pre/faq.vue'
 import ImgMapSvg from '@/assets/map-00.svg'
 
 import {
+  faBluesky,
   faFacebook,
   faInstagram,
   faThreads,
@@ -280,6 +301,7 @@ import {
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 library.add(
+  faBluesky,
   faFacebook,
   faInstagram,
   faThreads,
