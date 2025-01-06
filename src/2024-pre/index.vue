@@ -18,13 +18,15 @@
         </div>
         <div class="col">
           <div class="ratio ratio-16x9">
-            <iframe width="560" height="315"
+            <iframe
+              width="560"
+              height="315"
               src="https://www.youtube-nocookie.com/embed/ukbMBcUCY2A?si=toCQoRn_y3pl11pl&cc_load_policy=1&controls=0"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+              allowfullscreen
+            />
           </div>
-
         </div>
       </div>
     </div>
@@ -35,17 +37,25 @@
   </div>
 
   <div class="container mb-5">
-
     <div class="row row-cols-1 row-cols-sm-auto g-4 justify-content-sm-center">
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a :href="urlWebCal" aria-label="Subscribe to Calendar">
-              <icon :icon="['far', 'calendar-check']" size="3x" />
+            <a
+              :href="urlWebCal"
+              aria-label="Subscribe to Calendar"
+            >
+              <icon
+                :icon="['far', 'calendar-check']"
+                size="3x"
+              />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a :href="urlWebCal" class="fs-3">
+            <a
+              :href="urlWebCal"
+              class="fs-3"
+            >
               Subscribe to Calendar
             </a>
           </div>
@@ -54,12 +64,21 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a :href="urlCal.href" aria-label="Add to Calendar">
-              <icon :icon="['far', 'calendar-plus']" size="3x" />
+            <a
+              :href="urlCal.href"
+              aria-label="Add to Calendar"
+            >
+              <icon
+                :icon="['far', 'calendar-plus']"
+                size="3x"
+              />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a :href="urlCal.href" class="fs-3">
+            <a
+              :href="urlCal.href"
+              class="fs-3"
+            >
               Add to Calendar
             </a>
           </div>
@@ -68,12 +87,23 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a href="https://buttondown.email/GDCarousel/rss" target="_blank" aria-label="Facebook Event">
-              <icon :icon="['fas', 'square-rss']" size="3x" />
+            <a
+              href="https://buttondown.email/GDCarousel/rss"
+              target="_blank"
+              aria-label="Facebook Event"
+            >
+              <icon
+                :icon="['fas', 'square-rss']"
+                size="3x"
+              />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a href="https://buttondown.email/GDCarousel/rss" target="_blank" class="fs-3">
+            <a
+              href="https://buttondown.email/GDCarousel/rss"
+              target="_blank"
+              class="fs-3"
+            >
               RSS Feed
             </a>
           </div>
@@ -82,12 +112,23 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a href="https://www.facebook.com/events/1079567859951253/" target="_blank" aria-label="Facebook Event">
-              <icon :icon="['fab', 'facebook']" size="3x" />
+            <a
+              href="https://www.facebook.com/events/1079567859951253/"
+              target="_blank"
+              aria-label="Facebook Event"
+            >
+              <icon
+                :icon="['fab', 'facebook']"
+                size="3x"
+              />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a href="https://www.facebook.com/events/1079567859951253/" target="_blank" class="fs-3">
+            <a
+              href="https://www.facebook.com/events/1079567859951253/"
+              target="_blank"
+              class="fs-3"
+            >
               Facebook Event
             </a>
           </div>
@@ -99,12 +140,38 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a href="https://facebook.com/GDCarousel" aria-label="Facebook">
+            <a
+              href="https://bsky.app/profile/gdcarousel.com"
+              aria-label="Bluesky"
+            >
+              <icon :icon="['fab', 'bluesky']" />
+            </a>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <a
+              href="https://bsky.app/profile/gdcarousel.com"
+              class="fs-4"
+            >
+              Bluesky
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <a
+              href="https://facebook.com/GDCarousel"
+              aria-label="Facebook"
+            >
               <icon :icon="['fab', 'facebook']" />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a href="https://facebook.com/GDCarousel" class="fs-4">
+            <a
+              href="https://facebook.com/GDCarousel"
+              class="fs-4"
+            >
               Facebook
             </a>
           </div>
@@ -113,12 +180,18 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a href="https://www.instagram.com/gdcarousel" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/gdcarousel"
+              aria-label="Instagram"
+            >
               <icon :icon="['fab', 'instagram']" />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a href="https://www.instagram.com/gdcarousel" class="fs-4">
+            <a
+              href="https://www.instagram.com/gdcarousel"
+              class="fs-4"
+            >
               Instagram
             </a>
           </div>
@@ -127,19 +200,24 @@
       <div class="col">
         <div class="d-flex">
           <div class="flex-shrink-0">
-            <a href="https://www.threads.net/@gdcarousel" aria-label="Instagram">
+            <a
+              href="https://www.threads.net/@gdcarousel"
+              aria-label="Instagram"
+            >
               <icon :icon="['fab', 'threads']" />
             </a>
           </div>
           <div class="flex-grow-1 ms-3">
-            <a href="https://www.threads.net/@gdcarousel" class="fs-4">
+            <a
+              href="https://www.threads.net/@gdcarousel"
+              class="fs-4"
+            >
               Threads
             </a>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 
   <div class="container">
@@ -156,18 +234,25 @@
         </address>
         <ul>
           <li>
-            <a href="https://www.google.com/maps/search/?api=1&query=Leroy+King+Carousel+at+Children's+Creativity+Museum&query_place_id=ChIJt1SMQ4eAhYARsgwtv6TIX90"
-              target="_blank">Google Maps</a>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Leroy+King+Carousel+at+Children's+Creativity+Museum&query_place_id=ChIJt1SMQ4eAhYARsgwtv6TIX90"
+              target="_blank"
+            >Google Maps</a>
           </li>
           <li>
-            <a href="https://maps.apple.com/?address=221%204th%20St,%20San%20Francisco,%20CA%20%2094103,%20United%20States&auid=2312437926144756011&ll=37.783324,-122.402140&lsp=9902&q=Children%E2%80%99s%20Creativity%20Museum"
-              target="_blank">Apple Maps</a>
+            <a
+              href="https://maps.apple.com/?address=221%204th%20St,%20San%20Francisco,%20CA%20%2094103,%20United%20States&auid=2312437926144756011&ll=37.783324,-122.402140&lsp=9902&q=Children%E2%80%99s%20Creativity%20Museum"
+              target="_blank"
+            >Apple Maps</a>
           </li>
         </ul>
       </div>
       <div class="col-12 col-lg-8 order-lg-3">
-        <img :src="ImgMapSvg" class="img-fluid"
-          alt="Stylized map locating the LeRoy Carousel in relationship to the Moscone Center." />
+        <img
+          :src="ImgMapSvg"
+          class="img-fluid"
+          alt="Stylized map locating the LeRoy Carousel in relationship to the Moscone Center."
+        >
       </div>
       <div class="col-12 col-lg-6">
         <p>
@@ -186,7 +271,6 @@
         </ul>
       </div>
     </div>
-
   </div>
 
   <div class="container">
@@ -202,6 +286,7 @@ import FAQ from '@/2024-pre/faq.vue'
 import ImgMapSvg from '@/assets/map-00.svg'
 
 import {
+  faBluesky,
   faFacebook,
   faInstagram,
   faThreads,
@@ -216,6 +301,7 @@ import {
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 library.add(
+  faBluesky,
   faFacebook,
   faInstagram,
   faThreads,
@@ -225,7 +311,7 @@ library.add(
 )
 
 export default defineComponent({
-  name: '2024-pre',
+  name: '2024Pre',
 
   components: {
     NewsletterForm,

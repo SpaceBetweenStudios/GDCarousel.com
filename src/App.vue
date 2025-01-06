@@ -6,11 +6,21 @@
           <LogoAnimated />
         </div>
       </div>
-      <h1 class="main-title"><span class="line-start">Game Developer</span> Carousel</h1>
-      <div class="h4 text-info">The LeRoy King Carousel at Yerba Buena Gardens</div>
-      <div class="h2">Thursday, March 21, 2024</div>
-      <div class="h4">11:00am - 6:00pm</div>
-      <div class="h2 fw-bold">Free for all!</div>
+      <h1 class="main-title">
+        <span class="line-start">Game Developer</span> Carousel
+      </h1>
+      <div class="h4 text-info">
+        The LeRoy King Carousel at Yerba Buena Gardens
+      </div>
+      <div class="h2">
+        Thursday, March 21, 2024
+      </div>
+      <div class="h4">
+        11:00am - 6:00pm
+      </div>
+      <div class="h2 fw-bold">
+        Free for all!
+      </div>
     </div>
   </div>
 
@@ -22,8 +32,11 @@
         <div class="col display-2 text-center font-neoneon text-gdcarousel text-shadow">
           See you on the carousel!
         </div>
-        <div class="col display-1 text-center" role="img"
-          aria-label="The emoji icons of game controller, technologist, and carousel horse.">
+        <div
+          class="col display-1 text-center"
+          role="img"
+          aria-label="The emoji icons of game controller, technologist, and carousel horse."
+        >
           🎮 🧑‍💻 🎠
         </div>
       </div>
@@ -40,7 +53,7 @@ import ImgGDCarouselLogoPng from '@/assets/gdcarousel-icon-only.png'
 import LogoAnimated from '@/components/logo-animated.vue'
 
 export default defineComponent({
-  name: 'app',
+  name: 'App',
 
   components: {
     LogoAnimated,

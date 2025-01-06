@@ -13,7 +13,7 @@ const router = createRouter({
         setTimeout(() => {
           const element = document.getElementById(to.hash.replace(/#/, ''))
           if (element) {
-            let yOffset = 0
+            const yOffset = 0
             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
             window.scrollTo({
               top: y,
