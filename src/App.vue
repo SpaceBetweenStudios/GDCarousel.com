@@ -13,10 +13,10 @@
         The LeRoy King Carousel at Yerba Buena Gardens
       </div>
       <div class="h2">
-        Thursday, March 21, 2024
+        Thursday, March 20, 2025
       </div>
       <div class="h4">
-        11:00am - 6:00pm
+        10:00am - 6:00pm
       </div>
       <div class="h2 fw-bold">
         Free for all!
