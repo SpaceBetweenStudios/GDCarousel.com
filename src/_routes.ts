@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 import route2024Pre from '@/2024-pre/route'
+import route2025 from '@/2025/route'
 
 const routes : RouteRecordRaw[] = []
 routes.push(...route2024Pre)
+routes.push(...route2025)
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

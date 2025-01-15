@@ -32,7 +32,24 @@ DTSTART;TZID=America/Los_Angeles:20240321T110000
 DTEND;TZID=America/Los_Angeles:20240321T180000
 SUMMARY:Game Developer Carousel
 URL:https://gdcarousel.com/
-DESCRIPTION:No cost. No catch. Everyone can ride.\n\nTake a ride on a carousel for a moment of whimsy near the Moscone Center during the Game Developer Conference.
+DESCRIPTION:No cost. No catch. Everyone can ride.\n\nTake a ride on a caro
+	usel for a moment of whimsy near the Moscone Center during the Gam
+	e Developer Conference.
+LOCATION:Leroy King Carousel\n221 4th St\, San Francisco\, CA 94103
+TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250115T101500Z
+UID:1706495763998-25681@ical.gdcarousel.com
+DTSTART;TZID=America/Los_Angeles:20250320T100000
+DTEND;TZID=America/Los_Angeles:20250320T180000
+SUMMARY:Game Developer Carousel
+URL:https://gdcarousel.com/
+DESCRIPTION:No cost. No catch. Everyone can ride.\n\nTake a ride on a caro
+	usel for a moment of whimsy near the Moscone Center during the Gam
+	e Developer Conference.
 LOCATION:Leroy King Carousel\n221 4th St\, San Francisco\, CA 94103
 TRANSP:TRANSPARENT
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
