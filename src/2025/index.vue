@@ -113,7 +113,7 @@
         <div class="d-flex">
           <div class="flex-shrink-0">
             <a
-              href="https://www.facebook.com/events/1079567859951253/"
+              href="https://www.facebook.com/events/3948312665440021/"
               target="_blank"
               aria-label="Facebook Event"
             >
@@ -125,7 +125,7 @@
           </div>
           <div class="flex-grow-1 ms-3">
             <a
-              href="https://www.facebook.com/events/1079567859951253/"
+              href="https://www.facebook.com/events/3948312665440021/"
               target="_blank"
               class="fs-3"
             >
