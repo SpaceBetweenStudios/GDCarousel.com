@@ -15,7 +15,10 @@
       class="needs-validation"
       novalidate
       autocomplete="on"
-      @submit.prevent="onSubmit"
+      action="https://buttondown.com/api/emails/embed-subscribe/GDCarousel"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/GDCarousel', 'popupwindow')"
     >
       <h2>
         Newsletter for Reminders
@@ -26,6 +29,7 @@
             id="bd-email"
             v-model="formEmail"
             type="email"
+            name="email"
             class="form-control"
             autocomplete="email"
             required
@@ -106,6 +110,7 @@ export default defineComponent({
         formInfo.append('email', this.formEmail)
         fetch('https://buttondown.email/api/emails/embed-subscribe/GDCarousel', {
           method: 'POST',
+          mode: 'no-cors',
           body: formInfo,
         })
           .then(async (results) => {
