@@ -2,8 +2,8 @@ import { type RouteRecordRaw } from 'vue-router'
 
 export default [
   {
-    path: '/2025',
-    name: '2025',
+    path: '',
+    name: 'root',
     component: () => import('./index.vue'),
   }
 ] as RouteRecordRaw[]
