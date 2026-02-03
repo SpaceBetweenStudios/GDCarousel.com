@@ -12,12 +12,15 @@
       <div class="h4 text-info">
         The LeRoy King Carousel at Yerba Buena Gardens
       </div>
-      <div class="h2">
-        Thursday, March 20, 2025
+      <div class="h3">
+        2026 info very soon
+      </div>
+      <!-- <div class="h2">
+        Thursday, March 12, 2026
       </div>
       <div class="h4">
         10:00am - 6:00pm
-      </div>
+      </div> -->
       <div class="h2 fw-bold">
         Free for all!
       </div>
