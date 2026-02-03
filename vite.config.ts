@@ -14,12 +14,11 @@ export default defineConfig({
       scss: {
         quietDeps: true,
         verbose: true,
-        /** Need to wait for Bootstrap to update before moving forward */
-        api: "legacy",
         silenceDeprecations: [
-          "legacy-js-api",
-          "global-builtin",
-          "import",
+          'import',
+          'color-functions',
+          'global-builtin',
+          'if-function',
         ],
       }
     },
