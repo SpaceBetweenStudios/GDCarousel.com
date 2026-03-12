@@ -208,6 +208,36 @@
     </div>
   </div>
 
+  <div class="container mb-3">
+    <h2>Organ Music Provided by:</h2>
+    <div class="row align-items-center g-3">
+      <div class="col-auto">
+        <a
+          href="https://www.youtube.com/@JonnyMusicOrganist"
+          target="_blank"
+        >
+          <img
+            :src="ImgJM"
+            class="img-fluid"
+            style="max-width: 150px;"
+            alt="Jonny Music"
+          >
+        </a>
+      </div>
+      <div class="col">
+        <a
+          class="fs-2"
+          href="https://www.youtube.com/@JonnyMusicOrganist"
+        >
+          Jonny Music
+        </a>
+        <p>
+          Playlist will be posted after the event!
+        </p>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <h2>
       Location:
@@ -272,6 +302,7 @@ import { defineComponent } from 'vue'
 import NewsletterForm from '@/components/newsletter.vue'
 import FAQ from '@/2026/faq.vue'
 import ImgMapSvg from '@/assets/map-00.svg'
+import ImgJM from '@/assets/jonnymusic-logo.png'
 
 import {
   faBluesky,
@@ -314,6 +345,7 @@ export default defineComponent({
       urlCal,
       urlWebCal,
       ImgMapSvg,
+      ImgJM,
     }
   },
 
