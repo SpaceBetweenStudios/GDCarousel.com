@@ -231,9 +231,13 @@
         >
           Jonny Music
         </a>
-        <p>
-          Playlist will be posted after the event!
-        </p>
+      </div>
+      <div class="col">
+        <h3>
+          <RouterLink :to="{name: 'playlist-2026'}">
+            The Game Developer Carousel 2026 Playlist
+          </RouterLink>
+        </h3>
       </div>
     </div>
   </div>
